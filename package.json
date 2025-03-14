@@ -1,17 +1,16 @@
 {
-  "name": "hitlist-live",
-  "private": true,
-  "version": "0.0.0",
+  "name": "starter-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^6.1.0"
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "appwrite": "^17.0.0"
+    "node-appwrite": "^12.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
   }
 }
